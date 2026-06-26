@@ -1,5 +1,27 @@
 # Changelog
 
+## [13.2.0](https://github.com/lobu-ai/lobu/compare/lobu-v13.1.0...lobu-v13.2.0) (2026-06-26)
+
+
+### Features
+
+* **catalog:** add watchers as a global catalog kind with bundled templates ([#1535](https://github.com/lobu-ai/lobu/issues/1535)) ([c798452](https://github.com/lobu-ai/lobu/commit/c79845216cac703cd80b8f509af06ba9e0edffbd))
+* **connectors:** add Sign in with Slack login provider ([#1562](https://github.com/lobu-ai/lobu/issues/1562)) ([627fe3b](https://github.com/lobu-ai/lobu/commit/627fe3b9a48b027fb67f3d69f8e9240f16e784b5))
+* **guardrails:** custom inline-judge guardrails, trips API, env-only judge model ([#1565](https://github.com/lobu-ai/lobu/issues/1565)) ([fbccae9](https://github.com/lobu-ai/lobu/commit/fbccae975f1dc92ede9675c12a80338170349d0d))
+* **server:** allow file-only messages + harden attachment transcript refs ([#1557](https://github.com/lobu-ai/lobu/issues/1557)) ([6df3575](https://github.com/lobu-ai/lobu/commit/6df35756bbe2498e73b0be376706ea49f7c52cd8))
+* **server:** per-user connection visibility on the SQL scoping seam ([#1574](https://github.com/lobu-ai/lobu/issues/1574)) ([c835e85](https://github.com/lobu-ai/lobu/commit/c835e8569b64b8281fc68f65be2fa1ebb1ceacd7))
+* **server:** read past channel conversation via search_memory; retire get_channel_history ([#1578](https://github.com/lobu-ai/lobu/issues/1578)) ([b767dca](https://github.com/lobu-ai/lobu/commit/b767dca244b6bcf9204a015e682adc06f777e1f1))
+* **server:** Settings escape hatch on the extension bootstrap error card ([#1572](https://github.com/lobu-ai/lobu/issues/1572)) ([0e27794](https://github.com/lobu-ai/lobu/commit/0e27794ff3f18ca358cd0c74dadec690cf1602a5))
+* **slack:** personal notifications + agent setup link on App Home ([#1546](https://github.com/lobu-ai/lobu/issues/1546)) ([3ca71dc](https://github.com/lobu-ai/lobu/commit/3ca71dc07404a4a8c80be87f47e5fd6b13e5f314))
+* **slack:** web-first connected-apps onboarding (server) ([#1568](https://github.com/lobu-ai/lobu/issues/1568)) ([b063c89](https://github.com/lobu-ai/lobu/commit/b063c89f016ea4cb95f24ef82aec7ef78f6e8cf0))
+* **watchers:** sync extracted fields into entities + human-AI field ownership loop ([#1573](https://github.com/lobu-ai/lobu/issues/1573)) ([0d902a7](https://github.com/lobu-ai/lobu/commit/0d902a73078dfb883d9aa4925d1519903fd9b2b6))
+* **web:** consolidate entity detail into entities browser + entity_id filters ([#1569](https://github.com/lobu-ai/lobu/issues/1569)) ([edf0ee1](https://github.com/lobu-ai/lobu/commit/edf0ee10e11375b60641d21af9c6bf80f4cac1c8))
+
+
+### Bug Fixes
+
+* **server:** guardrail validation, Slack DM binding, non-OIDC OAuth (+owletto cleanup) ([#1579](https://github.com/lobu-ai/lobu/issues/1579)) ([cd47bfb](https://github.com/lobu-ai/lobu/commit/cd47bfbe69246fefff7b4e827d5a90024ca7cad7))
+
 ## [13.1.0](https://github.com/lobu-ai/lobu/compare/lobu-v13.0.0...lobu-v13.1.0) (2026-06-24)
 
 
